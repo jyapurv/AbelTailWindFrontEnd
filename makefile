@@ -3,7 +3,7 @@ SUBSCRIPTION ?= "AbelSubscription"
 RG ?= AbelIgnite2018WServers
 webappName ?= AbelTailWindFrontEnd4
 
-.PHONY: delete-branch delete-deploymentSlot git-clean
+.PHONY: delete-branch delete-deploymentSlot git-clean azd-clean
 
 all:
 	-make delete-branch
