@@ -11,8 +11,8 @@ steps:
 - bash: |
    # Write your commands here
    cat > .env << EOF
-   PRODUCT_SERVICE_BASE_URL=https://pe0001product.azurewebsites.net
-   INVENTORY_SERVICE_BASE_URL=https://pe0001inventory.azurewebsites.net
+   PRODUCT_SERVICE_BASE_URL=https://8823jotproduct.azurewebsites.net
+   INVENTORY_SERVICE_BASE_URL=https://8823jotinventory.azurewebsites.net
    EOF
    # Use the environment variables input below to pass secret variables to this script
   displayName: 'Set up DB Connection'
